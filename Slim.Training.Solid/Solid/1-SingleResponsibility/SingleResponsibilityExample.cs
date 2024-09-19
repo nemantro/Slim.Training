@@ -1,10 +1,12 @@
+using Slim.Training.Solid.Solid._1_SingleResponsibility.GoodImplementation;
+
 namespace Slim.Training.Solid.Solid._1_SingleResponsibility;
 
 public static class SingleResponsibilityExample
 {
     public static void RunBadImplementation()
     {
-        var journal = new JournalBadImplementation();
+        var journal = new BadImplementation.Journal();
         journal.AddEntry("Entry 1");
         journal.AddEntry("Entry 2");
         journal.AddEntry("Entry 3");

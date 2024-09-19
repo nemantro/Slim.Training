@@ -1,4 +1,4 @@
-namespace Slim.Training.Solid.Solid._1_SingleResponsibility;
+﻿namespace Slim.Training.Solid.Solid._1_SingleResponsibility.BadImplementation;
 
 public class Journal
 {
@@ -17,19 +17,16 @@ public class Journal
         _entries.RemoveAt(index);
     }
 
-    public override string ToString()
-    {
-        return string.Join(Environment.NewLine, _entries);
-    }
-}
-
-public class PersistenceManager
-{
-    public void SaveToFile(Journal journal, string filename, bool overwrite = false)
+    public void SaveToFile(string filename, bool overwrite = false)
     {
         if (overwrite || !File.Exists(filename))
         {
-            File.WriteAllText(filename, journal.ToString());
+            File.WriteAllText(filename, ToString());
         }
+    }
+
+    public override string ToString()
+    {
+        return string.Join(Environment.NewLine, _entries);
     }
 }

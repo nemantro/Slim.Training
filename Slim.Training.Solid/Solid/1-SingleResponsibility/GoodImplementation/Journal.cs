@@ -1,6 +1,6 @@
-﻿namespace Slim.Training.Solid.Solid._1_SingleResponsibility;
+namespace Slim.Training.Solid.Solid._1_SingleResponsibility.GoodImplementation;
 
-public class JournalBadImplementation
+public class Journal
 {
     private readonly List<string> _entries = new List<string>();
 
@@ -15,14 +15,6 @@ public class JournalBadImplementation
     public void RemoveEntry(int index)
     {
         _entries.RemoveAt(index);
-    }
-
-    public void SaveToFile(string filename, bool overwrite = false)
-    {
-        if (overwrite || !File.Exists(filename))
-        {
-            File.WriteAllText(filename, ToString());
-        }
     }
 
     public override string ToString()
