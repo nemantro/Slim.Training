@@ -1,6 +1,4 @@
-using Slim.Training.Solid.Solid._1_SingleResponsibility.GoodImplementation;
-
-namespace Slim.Training.Solid.Solid._1_SingleResponsibility;
+namespace Slim.Training.Solid.Solid._1_SingleResponsibility.GoodImplementation;
 
 public class PersistenceManager
 {
