@@ -2,6 +2,7 @@
 
 using Slim.Training.Solid.Solid._1_SingleResponsibility;
 using Slim.Training.Solid.Solid._2_OpenClosed;
+using Slim.Training.Solid.Solid._3_LiskovSubstitution;
 
 try
 {
@@ -10,6 +11,9 @@ try
     
     OpenClosedPrincipeExample.RunBadImplementation();
     OpenClosedPrincipeExample.RunGoodImplementation();
+    
+    LiskovSubstitutionExample.RunBadImplementation();
+    LiskovSubstitutionExample.RunGoodImplementation();
 }
 catch (Exception e)
 {
