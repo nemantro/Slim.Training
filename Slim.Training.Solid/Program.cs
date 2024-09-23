@@ -3,6 +3,8 @@
 using Slim.Training.Solid.Solid._1_SingleResponsibility;
 using Slim.Training.Solid.Solid._2_OpenClosed;
 using Slim.Training.Solid.Solid._3_LiskovSubstitution;
+using Slim.Training.Solid.Solid._4_InterfaceSegregation;
+using Slim.Training.Solid.Solid._5_DependencyInversion;
 
 try
 {
@@ -14,6 +16,12 @@ try
     
     LiskovSubstitutionExample.RunBadImplementation();
     LiskovSubstitutionExample.RunGoodImplementation();
+    
+    InterfaceSegregationExample.RunBadImplementation();
+    InterfaceSegregationExample.RunGoodImplementation();
+    
+    DependencyInversionExample.RunBadImplementation();
+    DependencyInversionExample.RunGoodImplementation();
 }
 catch (Exception e)
 {
