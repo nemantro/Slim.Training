@@ -1,10 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using Slim.Training.Solid.Solid._1_SingleResponsibility;
-using Slim.Training.Solid.Solid._2_OpenClosed;
-using Slim.Training.Solid.Solid._3_LiskovSubstitution;
-using Slim.Training.Solid.Solid._4_InterfaceSegregation;
-using Slim.Training.Solid.Solid._5_DependencyInversion;
+using Slim.Training.Solid._1_SingleResponsibility;
+using Slim.Training.Solid._2_OpenClosed;
+using Slim.Training.Solid._3_LiskovSubstitution;
+using Slim.Training.Solid._4_InterfaceSegregation;
+using Slim.Training.Solid._5_DependencyInversion;
 
 try
 {
