@@ -1,3 +1,5 @@
+using Slim.Training.Mediatr.Api;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -9,6 +11,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddMediatR(cfg => {
     cfg.RegisterServicesFromAssembly(typeof(Program).Assembly);
+    cfg.NotificationPublisher = new MyCustomPublisher(); 
 });
 
 var app = builder.Build();
