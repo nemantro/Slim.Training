@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slim.Training.Solid", "Slim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slim.Training.DesignPatterns", "Slim.Training.DesignPatterns\Slim.Training.DesignPatterns.csproj", "{0DD4586C-E52A-4D2B-B5CD-AF074927BB9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slim.Training.Mediatr.Api", "Slim.Training.Mediatr.Api\Slim.Training.Mediatr.Api.csproj", "{2310F5A0-C5B9-4E14-8906-FFE2B4237954}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{0DD4586C-E52A-4D2B-B5CD-AF074927BB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DD4586C-E52A-4D2B-B5CD-AF074927BB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DD4586C-E52A-4D2B-B5CD-AF074927BB9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2310F5A0-C5B9-4E14-8906-FFE2B4237954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2310F5A0-C5B9-4E14-8906-FFE2B4237954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2310F5A0-C5B9-4E14-8906-FFE2B4237954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2310F5A0-C5B9-4E14-8906-FFE2B4237954}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
