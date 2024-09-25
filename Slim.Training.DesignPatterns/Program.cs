@@ -1,4 +1,6 @@
-﻿using Slim.Training.DesignPatterns.Creational.Builder;
+﻿using Slim.Training.DesignPatterns.Behavioral.Mediator.EvenBased;
+using Slim.Training.DesignPatterns.Behavioral.Mediator.Plain;
+using Slim.Training.DesignPatterns.Creational.Builder;
 
 RunBuilderPatternExample();
 
@@ -15,4 +17,11 @@ void RunBuilderPatternExample()
     HtmlRenderer.RenderUsingFluentBuilder();
     
     HtmlRenderer.RenderUsingOnlyFluentBuilder();    
+}
+
+void RunMediatorPatternExample()
+{
+    ChatRoomMediatorExample.Run();
+    
+    FootballGameMediatorExample.Run();
 }
