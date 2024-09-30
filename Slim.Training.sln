@@ -6,6 +6,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slim.Training.DesignPattern
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slim.Training.Mediatr.Api", "Slim.Training.Mediatr.Api\Slim.Training.Mediatr.Api.csproj", "{2310F5A0-C5B9-4E14-8906-FFE2B4237954}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging", "Messaging", "{753D5A58-E94C-4C4C-BD03-25B02A133C5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design", "Design", "{116B709C-C331-4877-B3F5-39CCB1A573B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slim.Training.RabbitMQ.Producer", "Slim.Training.RabbitMQ.Producer\Slim.Training.RabbitMQ.Producer.csproj", "{EAFEA1D1-A325-4535-816D-592BC33CCD4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slim.Training.RabbitMQ.Consumer", "Slim.Training.RabbitMQ.Consumer\Slim.Training.RabbitMQ.Consumer.csproj", "{028F104F-9ED1-4A3F-BD0C-CAA8C807A55D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +32,20 @@ Global
 		{2310F5A0-C5B9-4E14-8906-FFE2B4237954}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2310F5A0-C5B9-4E14-8906-FFE2B4237954}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2310F5A0-C5B9-4E14-8906-FFE2B4237954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFEA1D1-A325-4535-816D-592BC33CCD4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFEA1D1-A325-4535-816D-592BC33CCD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFEA1D1-A325-4535-816D-592BC33CCD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFEA1D1-A325-4535-816D-592BC33CCD4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{028F104F-9ED1-4A3F-BD0C-CAA8C807A55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028F104F-9ED1-4A3F-BD0C-CAA8C807A55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028F104F-9ED1-4A3F-BD0C-CAA8C807A55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{028F104F-9ED1-4A3F-BD0C-CAA8C807A55D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DD4586C-E52A-4D2B-B5CD-AF074927BB9D} = {116B709C-C331-4877-B3F5-39CCB1A573B7}
+		{2310F5A0-C5B9-4E14-8906-FFE2B4237954} = {116B709C-C331-4877-B3F5-39CCB1A573B7}
+		{3D9E84C0-8F40-46B4-8C10-C35A8A36EDAC} = {116B709C-C331-4877-B3F5-39CCB1A573B7}
+		{EAFEA1D1-A325-4535-816D-592BC33CCD4F} = {753D5A58-E94C-4C4C-BD03-25B02A133C5A}
+		{028F104F-9ED1-4A3F-BD0C-CAA8C807A55D} = {753D5A58-E94C-4C4C-BD03-25B02A133C5A}
 	EndGlobalSection
 EndGlobal
