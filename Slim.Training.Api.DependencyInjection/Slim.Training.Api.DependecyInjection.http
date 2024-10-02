@@ -1,0 +1,14 @@
+@Slim.Training.Api.DependecyInjection_HostAddress = http://localhost:5116
+
+GET {{Slim.Training.Api.DependecyInjection_HostAddress}}/hello
+Accept: application/json
+
+###
+
+GET {{Slim.Training.Api.DependecyInjection_HostAddress}}/keyed
+Accept: application/json
+
+###
+
+GET {{Slim.Training.Api.DependecyInjection_HostAddress}}/overriding
+Accept: application/json

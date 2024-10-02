@@ -35,9 +35,9 @@ public static class LiskovSubstitutionExample
 
         var ostrich = new GoodImplementation_Ostrich();
 
-        var birds = new List<FlyingBird> { duck, sparrow };
+        var flyingBirds = new List<FlyingBird> { duck, sparrow };
 
-        foreach (var bird in birds)
+        foreach (var bird in flyingBirds)
         {
             bird.Walk();
             bird.Fly();
